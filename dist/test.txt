@@ -1,0 +1,340 @@
+nav &tab+modle
+
+            <div class="card h-100 border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/type1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+                  >VIEW DETAIL</a
+                > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓牛肉條
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/prodDetail-1.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">
+                  預購-離胺酸雞肉鬆 100g
+                </h5>
+              </div>
+            </div>
+    
+
+
+<!-- // 手機 預購熱門寵食 -->
+<section class="products d-md-none">
+  <div class="container">
+    <!-- 預購熱門寵食 -->
+    <h2 class="text-center">
+      <span><img src="./assets/images/footprint.png" alt="before" /></span>
+      預購熱門寵食
+      <span><img src="./assets/images/footprint.png" alt="" /> </span>
+    </h2>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center mb-3">
+        <div class="card text-center shadow h-100">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/type1.png"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">預購-離胺酸雞肉鬆 100g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 200元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/product2.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">預購-鮪魚丁凍乾 50g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 220元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/product1.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">蔓越莓牛肉條 80g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 180元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 現貨訂購 -->
+    <h2 class="text-center">
+      <span><img src="./assets/images/footprint.png" alt="before" /></span>
+      當天現貨寵食
+      <span><img src="./assets/images/footprint.png" alt="" /> </span>
+    </h2>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/type1.png"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">現貨-離胺酸雞肉鬆 100g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 200元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/product2.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">現貨-鮪魚丁凍乾 50g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 220元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/product1.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">現貨-蔓越莓牛肉條 80g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 180元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 客製化訂購 -->
+    <h2 class="text-center" data-aos="fade-up" data-aos-duration="2000">
+      <span><img src="./assets/images/footprint.png" alt="before" /></span>
+      客制寵物零食
+      <span><img src="./assets/images/footprint.png" alt="" /> </span>
+    </h2>
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/customize.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">客製化-蔬菜丸子蛋糕</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 200元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/customize2.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">客製化-鮪魚丁凍乾 50g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 220元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <div class="card text-center shadow mb-4">
+          <div class="px-3 pt-3">
+            <img
+              src="./assets/images/customize3.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">客製化-蔓越莓牛肉條 80g</h5>
+            <ul class="card-text list-unstyled">
+              <li>雞肉為低脂肪.高蛋白之肉品</li>
+              <li>富含維生素B1、B2，維持皮膚健康</li>
+            </ul>
+            <span class="price d-block mb-3 fs-5 text-primary">NT 180元</span>
+            <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

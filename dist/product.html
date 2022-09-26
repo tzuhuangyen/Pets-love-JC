@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>pets love JC Index</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body>
+   
+    <header>
+      <div class="container d-flex align-items-center justify-content-between">
+         <!-- logo+search+search icon-->
+        <div class=" logo-search d-flex justify-content-between align-items-center">
+          <!-- logo -->
+          <h1 class="logo d-flex align-items-center animate__animated animate__backInLeft animate__slow">
+          <a href="index.html">
+            <img src="./assets/images/Logo.png" alt="logo" /> 傑西手作寵食</a
+          >
+          </h1>
+          <!-- //search+search icon -->
+          <div class="search d-flex align-items-center">
+            <form class="d-flex d-none d-md-block">
+              <input
+                class="form-control"
+                type="search"
+                aria-label="Search"
+                placeholder="  ^ↀᴥↀ^ 奴才今天想找什麼？"
+              />
+            </form>
+            <!-- search icon -->
+            <span class="searchIcon material-symbols-outlined "> search </span>
+          </div>
+        </div>
+
+       <!-- navbar+漢堡選單按鈕+dropdown menu  -->
+        <div class="d-flex justify-content-between">
+           <!-- navbar-->
+           <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse d-lg-block id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">關於傑西</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./product.html">寵食一覽</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./articleList.html">寵物知識 </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- 漢堡選單按鈕+dropdown menu -->
+          <div>
+           <!-- 漢堡選單按鈕 -->
+               <a class="navBtn d-lg-none dropdown-toggle" href="#"  href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
+                 ><span class="material-symbols-outlined material-icons md-40">menu</span></a>
+            
+            <!-- dropdown menu -->
+     <ul class="dropdown-menu"  aria-labelledby="dropdownMenuLink">
+       <li><a class="dropdown-item" href="./index.html">關於傑西</a></li>
+       <li><a class="dropdown-item" href="./product.html">寵食一覽</a></li>
+       <li><a class="dropdown-item" href="./articleList.html">寵物知識</a></li>
+     
+     </ul>
+          </div>
+          
+        </div>
+      <!-- END navbar+漢堡選單按鈕+dropdown menu  -->
+      </div>
+  
+    </header>
+
+    
+<section class="allProduct mt-4">
+  <div class="container">
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button
+          class="nav-link active"
+          id="nav-home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-home"
+          type="button"
+          role="tab"
+          aria-controls="nav-home"
+          aria-selected="true"
+        >
+          現貨
+        </button>
+        <button
+          class="nav-link"
+          id="nav-profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-profile"
+          type="button"
+          role="tab"
+          aria-controls="nav-profile"
+          aria-selected="false"
+        >
+          預購
+        </button>
+        <button
+          class="nav-link"
+          id="nav-contact-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#nav-contact"
+          type="button"
+          role="tab"
+          aria-controls="nav-contact"
+          aria-selected="false"
+        >
+          客製化
+        </button>
+      </div>
+    </nav>
+
+    <div class="tab-content" id="nav-tabContent">
+      <!-- 分頁內的全部現貨 -->
+      <div
+        class="tab-pane fade show active"
+        id="nav-home"
+        role="tabpanel"
+        aria-labelledby="nav-home-tab"
+      >
+        <div class="row">
+          <!-- 現貨1 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card h-100 border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/現貨寵物脆笛.jpeg"
+                  class="card-img-top"
+                  alt="pic"
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+                  >VIEW DETAIL</a
+                > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- Quick View btn detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-寵物脆笛酥（鴨氣管）50g NT$70
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/現貨寵物脆笛.jpeg"
+                            alt="寵物脆笛"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              彈跳視窗內頁
+                              <h5 class="card-subtitle fs-5">NT$70</h5>
+                              <ul class="card-text text-start">
+                                <li>100% 新鮮合格鴨氣管</li>
+                                <li>適合寵物訓練獎勵及零食</li>
+                                <li>
+                                  純手工製品，每批的外觀、大小、厚度、顏色無法一致為正常現象
+                                </li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 連結到產品頁面 -->
+                    <div class="modal-footer">
+                      <a
+                        href="./product-inStock1.html"
+                        class="me-3 btn btn-secondary"
+                        >More Detail</a
+                      >
+                      <!-- <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        
+                      </button> -->
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">
+                  現貨-寵物脆笛酥（鴨氣管）
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- 現貨2 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card h-100 border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-12.png"
+                  class="card-img-top"
+                  alt="chicken
+                  "
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+                >VIEW DETAIL</a
+              > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-薑黃雞肉餅
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/proddetail-2.jpg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">
+                  現貨-薑黃雞肉狗骨頭 100g
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- 現貨3 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-鮮魚肉丁
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct3.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">現貨-鮮魚肉丁 100g</h5>
+              </div>
+            </div>
+          </div>
+          <!-- 現貨4 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-10.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+            >VIEW DETAIL</a
+          > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓牛肉條
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct3.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">預購-牛肉鬆 100g</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 分頁內的全部預購 -->
+      <div
+        class="tab-pane fade"
+        id="nav-profile"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+      >
+        <div class="row">
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-10.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+          >VIEW DETAIL</a
+        > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓牛肉條
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct3.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">預購-牛肉鬆 100g</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-11.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+            >VIEW DETAIL</a
+          > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓牛肉條
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct3.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">預購-牛肉鬆 100g</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card h-100 border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓牛肉條
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct5.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">預購-牛肉鬆 100g</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card h-100 border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/otherProduct1.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓牛肉條
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct5.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">預購-牛肉鬆 100g</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 分頁內的全部客製化 -->
+      <div
+        class="tab-pane fade"
+        id="nav-contact"
+        role="tabpanel"
+        aria-labelledby="nav-contact-tab"
+      >
+        <div class="row">
+          <!-- 現貨1 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card h-100 border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/type1.png"
+                  class="card-img-top"
+                  alt="pic"
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+                  >VIEW DETAIL</a
+                > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- Quick View btn detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓肉餅
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/type1.png"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a
+                        href="./productDetail.html"
+                        class="me-3 btn btn-secondary"
+                        >More Detail</a
+                      >
+                      <!-- <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        
+                      </button> -->
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">
+                  現貨-蔓越莓牛肉餅 100g
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- 現貨2 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card h-100 border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-12.png"
+                  class="card-img-top"
+                  alt="chicken
+                  "
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+                >VIEW DETAIL</a
+              > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-薑黃雞肉餅
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/proddetail-2.jpg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">
+                  現貨-薑黃雞肉狗骨頭 100g
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- 現貨3 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+              >VIEW DETAIL</a
+            > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-鮮魚肉丁
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct3.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">現貨-鮮魚肉丁 100g</h5>
+              </div>
+            </div>
+          </div>
+          <!-- 現貨4 -->
+          <div class="col-12 col-md-3 mt-6">
+            <div class="card border-0">
+              <!-- 照片 quickView-hover -->
+              <a href="#" class="quickView-hover d-block position-relatice">
+                <img
+                  src="./assets/images/proddetail-8.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <!-- <a href="./productDetail.html" class="btn btn-primary viewBtn"
+            >VIEW DETAIL</a
+          > -->
+                <!-- quick view Button trigger modal -->
+                <button
+                  type="button"
+                  class="quickViewBtn d-none position-absolute animate__animated animate__fadeInUp"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Quick View
+                </button>
+              </a>
+
+              <!-- detail of quick view  -->
+              <!-- 彈跳Modal視窗 -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">
+                        現貨-蔓越莓牛肉條
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <div class="row">
+                        <!-- 產品照片 -->
+                        <div class="col-12 col-md-5">
+                          <img
+                            class="product-detail-img card-img-top"
+                            src="./assets/images/otherProduct3.jpeg"
+                            alt="產品照片"
+                          />
+                        </div>
+                        <!-- 產品概況 -->
+                        <div class="col-12 col-md-7 p-0">
+                          <div class="card border-0">
+                            <div class="card-body text-start text-muted">
+                              <div class="d-flex jusity-content-center">
+                                <h3 class="card-title fs-5">預購熱門</h3>
+                                <div class="ratings mb-3 fs-6">
+                                  <div class="empty_star">★★★★★</div>
+                                  <div class="full_star">★★★★★</div>
+                                </div>
+                              </div>
+                              <h5 class="card-subtitle fs-5">NT$140</h5>
+                              <ul class="card-text text-start">
+                                <li>100%純肉零食</li>
+                                <li>嚴選新鮮食材，使用澳洲草飼牛</li>
+                                <li>牛筋含有豐富的膠原蛋白</li>
+                                <li>低膽固醇，超健康</li>
+                              </ul>
+                              <div
+                                class="d-flex justify-content-center align-items-center"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary me-3"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="./productDetail.html">More Detail</a>
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        <a href="＃">加入購物車</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-dark fs-6">預購-牛肉鬆 100g</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+    <footer>
+      <div class="container">
+        <div class=" footer"> 
+          <h1 class="logo">
+          <a href="index.html">
+            <img src="./assets/images/Logo.png" alt="logo" /> 傑西手作寵食</a
+          >
+          </h1>
+          <ul class="social">
+          <li><a href="#"></a><img src="./assets/images/fb.png" alt="fb" /></li>
+          <li>
+            <a href="＃"></a><img src="./assets/images/ig.png" alt="ig" />
+          </li>
+          <li>
+            <a href="＃"></a><img src="./assets/images/line.png" alt="line" />
+          </li>
+          </ul>
+        </div>
+        <div class="copyRight">©2022 By Yen</div>
+      </div>
+     
+    </footer>
+
+    
+  
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+   <script src="./assets/js/vendors.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init({
+       // Global settings:
+       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+       startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+       initClassName: "aos-init", // class applied after initialization
+       animatedClassName: "aos-animate", // class applied on animation
+       useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+       disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+       debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+       throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+       // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+       offset: 120, // offset (in px) from the original trigger point
+       delay: 0, // values from 0 to 3000, with step 50ms
+       duration: 400, // values from 0 to 3000, with step 50ms
+       easing: "ease", // default easing for AOS animations
+       once: false, // whether animation should happen only once - while scrolling down
+       mirror: false, // whether elements should animate out while scrolling past them
+       anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+     });
+   </script>
+   <script src="./assets/js/all.js"></script>
+  
+  </body>
+</html>
